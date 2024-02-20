@@ -34,7 +34,7 @@
             <a class="nav-link" href="#">Добавить нового сотрудника</a>
           </li>
         </ul>
-        <h2 class="text-center mt-4 mb-4">Добавление нового сотрудника</h2>
+        <h2 class="text-center mt-4 mb-4">Информация о сотруднике</h2>
         <form:form class="form" action ="saveEmployee" modelAttribute="employee">
             <form:hidden path="id"/>
             <div class="name">
